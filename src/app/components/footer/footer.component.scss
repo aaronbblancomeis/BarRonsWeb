@@ -1,0 +1,77 @@
+.call{
+  overflow: none;
+  text-decoration: none;
+  color: black;
+}
+
+p{
+  color: black;
+  font-weight:bold;
+}
+.call:hover{
+  color: white;
+  font-weight:bold;
+}
+
+footer{
+  background-color: orange !important;
+}
+
+.foot{
+  margin: 20px;
+}
+
+.datos{
+  margin: 20px;
+}
+
+.icon{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Copyright{
+  font-size: small;
+}
+
+.created{
+  text-align: right;
+}
+
+@media screen and (max-width:600px){
+  .created{
+    display: block !important;
+    align-items: center !important;
+    align-content: center !important;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width:1300px){
+  .logo{
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  .datos{
+    margin: 5px;
+    margin-top: 20px;
+  }
+
+  .foot{
+    margin: 5px;
+  }
+
+  .icon{
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .link{
+    width: 25px;
+    height: 25px;
+  }
+
+  .datos{
+    font-size: 15px;
+  }
+}

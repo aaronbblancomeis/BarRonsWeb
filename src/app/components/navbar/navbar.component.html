@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <!--<div class="name">Bar Rons </div>-->
+      <img src="/assets/image/logo.png" alt="" width="100px" height="100px" class="d-inline-block align-text-center logo">
+    </a>
+    <button class="navbar-toggler btn-icon" (click)="navbar()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id = "btn-menu">
+      <mat-icon *ngIf="!closeMenu">menu</mat-icon>
+      <mat-icon *ngIf="closeMenu">close</mat-icon>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav w-100 justify-content-center menu">
+        <a href="#" class="nav-item nav-link actrive">Home</a>
+        <a href="#carta" class="nav-item nav-link actrive">Menu</a>
+        <a href="#horario" class="nav-item nav-link actrive">Horario</a>
+        <a href="#contacto" class="nav-item nav-link actrive">Contacto</a>
+      </div>
+    </div>
+    <div class="call">
+      <a href="tel:+34986730785">
+        <img src="/assets/icons/call.png" alt="">
+      </a>
+    </div>
+  </div>
+
+</nav>
