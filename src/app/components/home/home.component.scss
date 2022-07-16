@@ -1,0 +1,94 @@
+.html{
+  scroll-behavior: smooth;
+}
+
+.stn-1{
+  margin-bottom: 150px;
+
+}
+.stn-2{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.stn-3{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.stn-4{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.maps{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card {
+  z-index: 20;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 30px;
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 80px;
+}
+
+.shadow-contact-card{
+  position: relative;
+  left: 20px;
+  top: -60px;
+  background-color: rgb(163, 87, 0);
+  width: 250px;
+  height: 80px;
+}
+
+.horario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleHorario{
+  color: orange;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: justify;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.date{
+  color: white;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: justify;
+  font-size: 30px;
+  margin: 10px;
+}
+
+@media screen and (max-width:1319px){
+
+  .maps-frame{
+    height: 300px !important;
+  }
+
+  .titleHorario{
+    font-size: 25px;
+  }
+
+  .date{
+    font-size: 25px;
+  }
+}
+

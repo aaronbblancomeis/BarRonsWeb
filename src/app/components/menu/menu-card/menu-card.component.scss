@@ -1,0 +1,91 @@
+.card {
+  width: 100%;
+  height: 200px;
+  background-size: 100%,200px;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+}
+
+.card-view {
+  position: absolute;
+  width: 190px;
+  height: 90px;
+  display: flex;
+  opacity: 70%;
+  background-color:white;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: grey;
+  font-family: 'Otomanopee One', sans-serif;
+}
+.cardCategori {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: orange;
+  color: white;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.subcategorias {
+width: 100%;
+margin-bottom: 30px;
+}
+
+mat-expansion-panel,
+mat-expansion-panel-header {
+  background-color: black !important;
+  color: white !important;
+}
+
+mat-expansion-panel:disabled {
+  background-color: black !important;
+  color: white;
+}
+mat-expansion-panel-header:disabled {
+  background-color: black !important;
+  color: white;
+}
+.card_complete {
+  border-bottom: 1px solid white;
+}
+
+.card_menu {
+  display: flex;
+  width: 100%;
+  height: 60px;
+
+  .icon {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .producto {
+    display: flex;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    text-align: left;
+    text-justify: center;
+  }
+
+  .precio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:15%;
+    height: 100%;
+  }
+}
