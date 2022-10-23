@@ -32,12 +32,15 @@
   justify-content: center;
 }
 
-.contact-card {
-  z-index: 20;
+h1{
   font-family: 'Otomanopee One', sans-serif;
   font-size: 30px;
-  background-color: orange;
   color: white;
+}
+
+.contact-card {
+  z-index: 20;
+  background-color: orange;
   display: flex;
   align-items: center;
   justify-content: center;

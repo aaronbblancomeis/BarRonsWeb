@@ -204,14 +204,9 @@
             "precio":"4,70"
           },
           {
-            "info":"Pollo, Queso, Huevo, Bacon y Vegetales (Lechuga, Tomate, Cebolla)",
-            "nombre":"Pollo Completo con Bacon y Huevo",
-            "precio":"4,70"
-          },
-          {
             "info":"Pollo, Queso, Lomo, Bacon, Huevo y Vegetales (Lechuga, Tomate, Cebolla)",
             "nombre":"Pollo Especial Rons",
-            "precio":"5,20"
+            "precio":"5,70"
           },
           {
             "nombre":"Jamón Asado",
@@ -228,10 +223,6 @@
           {
             "nombre":"Chipirones",
             "precio":"4,50"
-          },
-          {
-            "nombre":"Pepito De Ternera",
-            "precio":"5,00"
           },
           {
             "info":"El raxo es lomo de cerdo fresco en trozos",
@@ -299,7 +290,7 @@
           },
           {
             "nombre":"Sandwich Vegetal",
-            "precio":"3,10"
+            "precio":"3,20"
           },
           {
             "nombre":"Sandwich Especial",
@@ -318,7 +309,7 @@
         "productos":[
           {
             "nombre":"Patatas 3 Salsas",
-            "precio":"4,90"
+            "precio":"5,00"
           },
           {
             "nombre":"Chorizos",
@@ -329,12 +320,12 @@
             "precio":"10,00"
           },
           {
-            "nombre":"Croquetas",
+            "nombre":"Croquetas de Jamón",
             "precio":"6,00"
           },
           {
-            "nombre":"Empanadillas",
-            "precio":"6,00"
+            "nombre":"Croquetas de Jamón Iberico",
+            "precio":"8,00"
           },
           {
             "nombre":"Pimientos de Padrón",
@@ -382,29 +373,8 @@
             "precio":"4,50"
           },
           {
-            "nombre":"Ensalada Espacial",
+            "nombre":"Ensalada Especial",
             "precio":"6,50"
-          }
-        ]
-      },
-      {
-        "titulo":"Por Encargo",
-        "productos":[
-          {
-            "nombre":"Tortilla Española",
-            "precio":"10,00"
-          },
-          {
-            "nombre":"Emapanada de Atun",
-            "precio":"10,00"
-          },
-          {
-            "nombre":"Emapanada de Pulpo",
-            "precio":"15,00"
-          },
-          {
-            "nombre":"Emapanada de Mejillón",
-            "precio":"12,00"
           }
         ]
       }
@@ -422,11 +392,35 @@
             "precio":"2,50"
           },
           {
+            "nombre":"Maxibon Nata",
+            "precio":"2,50"
+          },
+          {
+            "nombre":"Maxibon Pops",
+            "precio":"2,50"
+          },
+          {
+            "nombre":"KitKat",
+            "precio":"2,50"
+          },
+          {
+            "nombre":"Oreo",
+            "precio":"2,50"
+          },
+          {
             "nombre":"Almendrado Nuii",
             "precio":"2,50"
           },
           {
-            "nombre":"Extreme Gold",
+            "nombre":"Almendrado Caramelo",
+            "precio":"2,50"
+          },
+          {
+            "nombre":"Extreme Chocolate",
+            "precio":"2,50"
+          },
+          {
+            "nombre":"Extreme Vainilla",
             "precio":"2,50"
           },
           {
@@ -436,6 +430,49 @@
           {
             "nombre":"Micolapiz",
             "precio":"2,00"
+          },
+          {
+            "nombre":"Pirulo",
+            "precio":"2,00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "background":"https://barronsogrove.web.app/assets/image/porEncargo.jpg",
+    "title":"Por Encargo",
+    "subCategoria":[
+      {
+        "titulo":"",
+        "productos":[
+          {
+            "nombre":"Tortilla Española",
+            "precio":"10,00"
+          },
+          {
+            "nombre":"Emapanada de Atun (Grande)",
+            "precio":"16,00"
+          },
+          {
+            "nombre":"Emapanada de Atun (Mediana)",
+            "precio":"12,00"
+          },
+          {
+            "nombre":"Emapanada de Pulpo (Grande)",
+            "precio":"18,00"
+          },
+          {
+            "nombre":"Emapanada de Pulpo (Mediana)",
+            "precio":"16,00"
+          },
+          {
+            "nombre":"Emapanada de Mejillón (Grande)",
+            "precio":"16,00"
+          },
+          {
+            "nombre":"Emapanada de Mejillón (Mediana)",
+            "precio":"12,00"
           }
         ]
       }

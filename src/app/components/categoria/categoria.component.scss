@@ -1,0 +1,41 @@
+.body{
+  height: 100%;
+  width: 100%;
+}
+.card{
+  display: flex;
+  width: 70%;
+  height: 70%;
+  background:orange;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.options{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  align-items: center;
+  grid-auto-rows: 80px;
+}
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.logo{
+  margin: 40px 80px 0px 80px;
+}
+
+@media (max-width: 800px) {
+  .card {
+    font-size: 4vw;
+  }
+}
+

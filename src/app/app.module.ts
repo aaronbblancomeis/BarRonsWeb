@@ -8,9 +8,10 @@ import { MenuComponent } from './components/menu/menu.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import {MatIconModule} from '@angular/material/icon';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AnimationComponent } from './components/animation/animation.component';
+import { CategoriaComponent } from './components/categoria/categoria.component';
 import { MenuCardComponent } from './components/menu/menu-card/menu-card.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -19,15 +20,15 @@ import {MatExpansionModule} from '@angular/material/expansion';
     HomeComponent,
     MenuComponent,
     NavbarComponent,
-    AnimationComponent,
-    MenuCardComponent
-  ],
+    CategoriaComponent,
+    MenuCardComponent  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
     BrowserAnimationsModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatDialogModule
 
   ],
   providers: [],

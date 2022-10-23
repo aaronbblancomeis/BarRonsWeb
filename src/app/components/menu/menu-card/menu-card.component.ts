@@ -6,15 +6,14 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./menu-card.component.scss']
 })
 export class MenuCardComponent implements OnInit {
-
   @Input() categoria:any;
-  mostrar = true;
-  constructor() {
-
-  }
-
-
+  hidden:boolean;
+  constructor() {}
 
   ngOnInit(): void {
+  }
+
+  openDialog(){
+
   }
 }

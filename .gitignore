@@ -5,6 +5,8 @@
 /tmp
 /out-tsc
 /bazel-out
+/.vscode
+/src/enviroments
 
 # Node
 /node_modules
