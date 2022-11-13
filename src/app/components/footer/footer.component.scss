@@ -14,20 +14,36 @@ p{
 }
 
 footer{
-  background-color: orange !important;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
 }
 
 .foot{
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.datos{
-  margin: 20px;
+.redes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon{
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
 
 .Copyright{

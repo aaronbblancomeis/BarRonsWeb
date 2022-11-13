@@ -1,24 +1,21 @@
-<nav class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="/assets/image/logo.png" alt="Bar Rons - O Grove" width="100px" height="100px" class="d-inline-block align-text-center logo">
+<nav>
+  <div class="nav-logo">
+    <a class="nav-brand" href="#">
+      <img src="/assets/image/logo.webp" alt="Bar Rons - O Grove" width="100px" height="100px" class="d-inline-block align-text-center logo">
     </a>
-    <button class="navbar-toggler btn-icon" (click)="navbar()" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" id = "btn-menu">
-      <mat-icon *ngIf="!closeMenu">menu</mat-icon>
-      <mat-icon *ngIf="closeMenu">close</mat-icon>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav w-100 justify-content-center menu">
-        <a href="#" class="nav-item nav-link actrive">Home</a>
-        <a href="#carta" class="nav-item nav-link actrive">Menu</a>
-        <a href="#horario" class="nav-item nav-link actrive">Horario</a>
-        <a href="#contacto" class="nav-item nav-link actrive">Contacto</a>
-      </div>
-    </div>
-    <div class="call">
-      <a href="tel:+34986730785">
-        <img src="/assets/icons/call.png" width="100%" height="100%" alt="Bar Rons">
-      </a>
-    </div>
+  </div>
+  <div class="nav-menu" #nav_menu>
+    <ul class="menu" #menu>
+      <li><a href="#" (click)="navbar()" class="nav-item">Home</a></li>
+      <li><a href="#carta" (click)="navbar()" class="nav-item">Menu</a></li>
+      <li><a href="#horario" (click)="navbar()" class="nav-item">Horario</a></li>
+      <li><a href="#contacto" (click)="navbar()" class="nav-item">Contacto</a></li>
+    </ul>
+    <div class="menu-btn" #icon (click)="navbar()"><mat-icon class="i_menu">menu</mat-icon></div>
+  </div>
+  <div class="call">
+    <a href="tel:+34986730785" aria-label="phone">
+      <mat-icon> phone</mat-icon>
+    </a>
   </div>
 </nav>

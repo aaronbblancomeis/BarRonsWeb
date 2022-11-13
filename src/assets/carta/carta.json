@@ -1,6 +1,6 @@
 [
   {
-    "background":"https://barronsogrove.web.app/assets/image/cafe.jpeg",
+    "background":"https://barronsogrove.web.app/assets/image/cafe.webp",
     "title":"Desayuno",
     "subCategoria":[
       {
@@ -66,7 +66,7 @@
   }
 ,
   {
-    "background":"https://barronsogrove.web.app/assets/image/vino.jpg",
+    "background":"https://barronsogrove.web.app/assets/image/vino.webp",
     "title":"Bebidas",
     "subCategoria":[
       {
@@ -143,7 +143,7 @@
   }
 ,
   {
-    "background":"https://barronsogrove.web.app/assets/image/bocadillo.jpeg",
+    "background":"https://barronsogrove.web.app/assets/image/bocadillo.webp",
     "title":"Bocadillos",
     "subCategoria":[
       {
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "background":"https://barronsogrove.web.app/assets/image/burguer.png",
+    "background":"https://barronsogrove.web.app/assets/image/burguer.webp",
     "title":"Hamburguesas",
     "subCategoria":[
       {
@@ -278,7 +278,7 @@
     ]
   },
   {
-    "background":"https://barronsogrove.web.app/assets/image/sandwich.png",
+    "background":"https://barronsogrove.web.app/assets/image/sandwich.webp",
     "title":"Sandwiches",
     "subCategoria":[
       {
@@ -301,7 +301,7 @@
     ]
   },
   {
-    "background":"https://barronsogrove.web.app/assets/image/tapas.jpg",
+    "background":"https://barronsogrove.web.app/assets/image/tapas.webp",
     "title":"Tapas",
     "subCategoria":[
       {
@@ -381,7 +381,7 @@
     ]
   },
   {
-    "background":"https://barronsogrove.web.app/assets/image/postres.jpg",
+    "background":"https://barronsogrove.web.app/assets/image/postres.webp",
     "title":"Postres",
     "subCategoria":[
       {
@@ -440,7 +440,7 @@
     ]
   },
   {
-    "background":"https://barronsogrove.web.app/assets/image/porEncargo.jpg",
+    "background":"https://barronsogrove.web.app/assets/image/porEncargo.webp",
     "title":"Por Encargo",
     "subCategoria":[
       {

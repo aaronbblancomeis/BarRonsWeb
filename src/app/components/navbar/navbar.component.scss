@@ -1,67 +1,117 @@
-.navbar{
+nav {
   position : relative;
   display: flex;
-  z-index: 20;
-  width: 100%;
+  width: 100vw;
+  height: 120px;
   margin-top: 60px;
-  background-color: orange!important;
+  background: orange;
+}
+
+.menu {
+  display: flex;
 }
 
 .call{
-  margin-left: 20px;
+  color: white;
   justify-content: center;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
-.navbar-toggler{
-  outline: none !important;
-  border: none !important;
-  box-shadow: none !important;
+.call > a > mat-icon {
+  color: white;
 }
 
-.nav-item{
-  color: white !important;
-  border-radius: 20px !important;
-  margin: 30px;
-  width: 100px;
-  text-align: center;
+.menu li {
+  list-style: none;
+  margin: 0 15px;
 }
 
-.nav-item:hover{
-  background-color: rgb(167, 94, 0);
-  border-radius: 20px;
+.nav-item {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  font-size: 20px;
 }
 
-.icon{
-    margin-right: 50px;
-}
-
-.logo{
-  margin-left: 15px !important;
-}
-
-.name{
-  font-family: 'Pacifico', cursive;
+.nav-item:hover {
   color: black;
 }
-.menu{
-  margin: auto;
-  align-content: center;
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+}
+
+.menu-btn {
+  cursor: pointer;
+  display: none;
+}
+
+.nav-logo {
+  margin-left: 5vw;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
-@media screen and (max-width:600px){
 
-  .icon{
-    display : none;
+mat-icon {
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.nav-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .nav-menu {
+    position: relative;
+    top: 10px;
+    right: 10px;
+    justify-content: right;
   }
 
-  .btn-icon{
-    overflow: none !important;
-    outline: none !important;
+  .menu-btn-fixed {
+    position: fixed;
+    right: 20px;
+    top: 110px;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 102;
+  }
+
+  .menu {
+    position: fixed;
+    z-index: 100;
+    top: -20px;
+    left: -30px;
+    background: orange;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 100px;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+  }
+
+  .menu-active{
+    transform: translateX(0);
   }
 
   .call{
+    color: white;
     width: 50px;
     height: 50px;
     justify-content: center;
@@ -74,20 +124,8 @@
     border-radius: 50%;
     border: 3px solid white;
   }
-}
 
-@media screen and (max-width:1300px) {
-  .logo{
-    width: 75px !important;
-    height: 75px !important;
-  }
-
-  .nav-item{
-    margin: 10px !important;
-  }
-
-  .icon{
-    width: 20px;
-    height: 20px;
+  .call > a {
+    display: flex;
   }
 }
