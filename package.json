@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --configuration production --aot",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "upload": "ng build && firebase deploy"
+    "upload": "ng build --configuration production --aot && firebase deploy"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^14.0.6",
     "@angular/platform-server": "^14.0.6",
     "@angular/router": "^14.0.6",
+    "@builder.io/partytown": "^0.7.1",
     "@nguniversal/express-engine": "^7.0.1",
     "firebase": "^9.9.0",
     "rxjs": "~7.5.6",
