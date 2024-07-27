@@ -2,11 +2,12 @@
   height: 100%;
   width: 100%;
 }
-.card{
+
+.card {
   display: flex;
-  width: 70%;
+  width: 90%;
   height: 70%;
-  background:orange;
+  background: rgb(31, 31, 34);
   border-radius: 10px;
   text-decoration: none;
   color: white;
@@ -14,15 +15,20 @@
   font-size: 2vh;
   justify-content: center;
   align-items: center;
+  white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  text-overflow: ellipsis; /* Muestra puntos suspensivos si el texto es demasiado largo */
 }
 
-.options{
+.options {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
   align-items: center;
   grid-auto-rows: 80px;
+  gap: 10px; /* Añade espacio entre los botones, ajusta según sea necesario */
 }
+
 .animation {
   display: flex;
   justify-content: center;

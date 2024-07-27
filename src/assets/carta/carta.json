@@ -4,144 +4,52 @@
     "title":"Desayuno",
     "subCategoria":[
       {
-        "titulo":"Cafés",
+        "titulo":"Desayuno",
         "productos":[
           {
-            "nombre":"Cafe solo",
-            "precio":"1,30"
+            "nombre":"Tostada Tomate",
+            "precio":"3,00"
           },
           {
-            "nombre":"Americano",
-            "precio":"1,30"
+            "nombre":"Tostada Tomate, Jamón",
+            "precio":"4,00"
           },
           {
-            "nombre":"Cafe con leche",
-            "precio":"1,30"
+            "nombre":"Tostada Revuelto c/ Salsa Yogurt",
+            "precio":"4,00"
           },
           {
-            "nombre":"Cafe con leche grande",
-            "precio":"1,40"
+            "nombre":"Tortitas c/ Chocolate",
+            "precio":"4,00"
           },
           {
-            "nombre":"Cafe cortado",
-            "precio":"1,30"
+            "nombre":"Tortitas c/ Chocolate y Caramelo",
+            "precio":"4,00"
           },
           {
-            "nombre":"Cafe con hielo",
+            "nombre":"Tortitas Mermelada o Mantequilla",
+            "precio":"3,50"
+          },
+          {
+            "nombre":"Tortitas Fresa c/ Nata",
+            "precio":"4,00"
+          },
+          {
+            "nombre":"Bol Yogurt",
+            "precio":"4,50"
+          },
+          {
+            "nombre":"Croissant",
             "precio":"1,50"
           },
           {
-            "nombre":"Infusión",
-            "precio":"1,30"
-          }
-        ]
-      },
-      {
-        "titulo":"Zumos",
-        "productos":[
-          {
-            "nombre":"Zumo Natural",
-            "precio":"2,00"
-          },
-          {
-            "nombre":"Zumo Melocotón",
-            "precio":"2,00"
-          },
-          {
-            "nombre":"Zumo Piña",
-            "precio":"2,00"
-          },
-          {
-            "info":"Zumo de Zanahoria, Naranja y Limón",
-            "nombre":"Zumo Ace",
-            "precio":"2,00"
-          },
-          {
-            "nombre":"Zumo Naranja",
-            "precio":"2,00"
+            "nombre":"Napolitana",
+            "precio":"1,70"
           }
         ]
       }
     ]
-  }
-,
-  {
-    "background":"https://barronsogrove.web.app/assets/image/vino.webp",
-    "title":"Bebidas",
-    "subCategoria":[
-      {
-        "titulo":"Cervezas",
-        "productos":[
-          {
-            "nombre":"Estrella Galicia",
-            "precio":"2"
-          },
-          {
-            "nombre":"1906",
-            "precio":"2,20"
-          },
-          {
-            "nombre":"Estrella Galicia (Caña)",
-            "precio":"2"
-          },
-          {
-            "nombre":"1906 (Caña)",
-            "precio":"2,20"
-          },
-          {
-            "nombre":"Randler",
-            "precio":"2,20"
-          },
-          {
-            "nombre":"Green",
-            "precio":"2"
-          },
-          {
-            "nombre":"Superbock Negra",
-            "precio":"2"
-          },
-          {
-            "nombre":"Estrella Galicia 0,0",
-            "precio":"2"
-          },
-          {
-            "nombre":"Mahou",
-            "precio":"2"
-          },
-          {
-            "nombre":"Mahou Maestra",
-            "precio":"2,20"
-          },
-          {
-            "nombre":"Mahou Tostada 0,0",
-            "precio":"2"
-          }
-        ]
-      },
-      {
-        "titulo":"Vinos",
-        "productos":[
-          {
-            "nombre":"Copa Rioja",
-            "precio":"2,10"
-          },
-          {
-            "nombre":"Copa Mencia",
-            "precio":"2,20"
-          },
-          {
-            "nombre":"Copa Ribeiro",
-            "precio":"1,60"
-          },
-          {
-            "nombre":"Copa Albariño",
-            "precio":"2,20"
-          }
-        ]
-      }
-    ]
-  }
-,
+  },
   {
     "background":"https://barronsogrove.web.app/assets/image/bocadillo.webp",
     "title":"Bocadillos",
@@ -151,92 +59,60 @@
         "productos":[
           {
             "nombre":"Lomo",
-            "precio":"3,40"
-          },
-          {
-            "nombre":"Lomo con Queso",
-            "precio":"3,60"
+            "precio":"4,00"
           },
           {
             "info":"Lomo, Queso y Vegetales (Lechuga, Tomate, Cebolla)",
             "nombre":"Lomo Completo",
-            "precio":"3,90"
-          },
-          {
-            "info":"Lomo, Queso, Huevo y Vegetales (Lechuga, Tomate, Cebolla)",
-            "nombre":"Lomo Especial",
-            "precio":"4,50"
+            "precio":"6,00"
           },
           {
             "nombre":"Bacon",
-            "precio":"3,40"
-          },
-          {
-            "nombre":"Bacon con Queso",
-            "precio":"3,60"
+            "precio":"4,00"
           },
           {
             "info":"Bacon, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
             "nombre":"Bacon Completo",
-            "precio":"3,90"
+            "precio":"6,00"
           },
           {
-            "info":"Bacon, Queso, Huevo y Vegetales (Lechuga, Tomate, Cebolla)",
-            "nombre":"Bacon Especial",
-            "precio":"4,50"
+            "info":"Lomo, Bacon, Queso, Huevo y Vegetales (Lechuga, Tomate, Cebolla)",
+            "nombre":"Especial Rons",
+            "precio":"7,50"
           },
           {
             "nombre":"Pollo",
-            "precio":"3,70"
-          },
-          {
-            "nombre":"Pollo con Queso",
-            "precio":"4,00"
+            "precio":"5,00"
           },
           {
             "info":"Pollo, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
             "nombre":"Pollo Completo",
-            "precio":"4,20"
-          },
-          {
-            "info":"Pollo, Queso, Huevo y Vegetales (Lechuga, Tomate, Cebolla)",
-            "nombre":"Pollo Completo con Huevo",
-            "precio":"4,70"
+            "precio":"7,00"
           },
           {
             "info":"Pollo, Queso, Lomo, Bacon, Huevo y Vegetales (Lechuga, Tomate, Cebolla)",
-            "nombre":"Pollo Especial Rons",
-            "precio":"5,70"
+            "nombre":"Pollo Especial",
+            "precio":"9,00"
+          },
+          {
+            "nombre":"Zorza",
+            "precio":"8,00"
           },
           {
             "nombre":"Jamón Asado",
-            "precio":"3,50"
-          },
-          {
-            "nombre":"Jamón Asado con Queso",
-            "precio":"3,70"
+            "precio":"7,00"
           },
           {
             "nombre":"Jamón Asado Con Queso y Tomate",
-            "precio":"3,90"
+            "precio":"8,00"
           },
           {
-            "nombre":"Chipirones",
-            "precio":"4,50"
-          },
-          {
-            "info":"El raxo es lomo de cerdo fresco en trozos",
-            "nombre":"Raxo",
-            "precio":"3,70"
-          },
-          {
-            "info":"La Zorza es carne de cerdo picada y adobada",
-            "nombre":"Zorza",
-            "precio":"4,40"
+            "nombre":"Pepito de Ternera",
+            "precio":"8,00"
           },
           {
             "nombre":"Tortilla de Patata",
-            "precio":"3,50"
+            "precio":"6,00"
           }
         ]
       }
@@ -247,31 +123,59 @@
     "title":"Hamburguesas",
     "subCategoria":[
       {
-        "titulo":"",
+        "titulo":"Mixtas",
         "productos":[
           {
-            "nombre":"Hamburguesa Simple",
-            "precio":"3,00"
+            "nombre":"Mixta Simple",
+            "precio":"4,00"
           },
           {
-            "nombre":"Hamburguesa Con Queso",
-            "precio":"3,20"
+            "nombre":"Mixta Completa",
+            "info":"Hamburguesa Mixta, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
+            "precio":"5,50"
           },
           {
-            "nombre":"Hamburguesa Completa",
-            "precio":"3,30"
+            "nombre":"Mixta Especial",
+            "info":"Hamburguesa Mixta, Lomo, Huevo, Bacon, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
+            "precio":"7,00"
+          }
+        ]
+      },
+      {
+        "titulo":"Pollo",
+        "productos":[
+          {
+            "nombre":"Pollo Simple",
+            "precio":"5,00"
           },
           {
-            "nombre":"Hamburguesa Completa Con Huevo",
-            "precio":"3,70"
+            "nombre":"Pollo Completo",
+            "info":"Hamburguesa Pollo, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
+            "precio":"6,50"
           },
           {
-            "nombre":"Hamburguesa Completa Con Bacon y Huevo",
-            "precio":"3,90"
+            "nombre":"Pollo Especial",
+            "info":"Hamburguesa Mixta, Lomo, Huevo, Bacon, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
+            "precio":"8,00"
+          }
+        ]
+      },
+      {
+        "titulo":"Vaca Vieja",
+        "productos":[
+          {
+            "nombre":"Vaca Vieja Simple",
+            "precio":"6,00"
           },
           {
-            "nombre":"Hamburguesa Especial",
-            "precio":"4,20"
+            "nombre":"Vaca Vieja Completo",
+            "info":"Hamburguesa Mixta, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
+            "precio":"7,50"
+          },
+          {
+            "nombre":"Vaca Vieja Especial",
+            "info":"Hamburguesa Mixta, Lomo, Huevo, Bacon, Queso, Vegetales (Lechuga, Tomate, Cebolla)",
+            "precio":"9,00"
           }
         ]
       }
@@ -286,15 +190,47 @@
         "productos":[
           {
             "nombre":"Sandwich Mixto",
-            "precio":"3,00"
+            "precio":"4,00"
           },
           {
             "nombre":"Sandwich Vegetal",
-            "precio":"3,20"
+            "precio":"5,50"
           },
           {
             "nombre":"Sandwich Especial",
-            "precio":"3,90"
+            "precio":"8,00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "background":"https://barronsogrove.web.app/assets/image/platos.jpg",
+    "title":"Platos Combinados",
+    "description":"C/ Patatas y Ensalada",
+    "subCategoria":[
+      {
+        "titulo":"C/ Patatas y Ensalada",
+        "productos":[
+          {
+            "nombre":"N1. Filete Ternera y Huevos",
+            "precio":"13,00"
+          },
+          {
+            "nombre":"N2. Pechuga de Pollo y Huevos",
+            "precio":"12,00"
+          },
+          {
+            "nombre":"N3. Lomo, Bacon y Huevos",
+            "precio":"12,00"
+          },
+          {
+            "nombre":"N4. Salchichas. Croquetas y Huevos",
+            "precio":"12,00"
+          },
+          {
+            "nombre":"N5. Hamburguesa y Huevos",
+            "precio":"12,00"
           }
         ]
       }
@@ -308,60 +244,48 @@
         "titulo":"",
         "productos":[
           {
-            "nombre":"Patatas 3 Salsas",
-            "precio":"5,00"
-          },
-          {
-            "nombre":"Chorizos",
-            "precio":"7,00"
-          },
-          {
-            "nombre":"Chipirones",
-            "precio":"10,00"
-          },
-          {
-            "nombre":"Croquetas de Jamón",
-            "precio":"6,00"
-          },
-          {
-            "nombre":"Croquetas de Jamón Iberico",
-            "precio":"8,00"
-          },
-          {
-            "nombre":"Pimientos de Padrón",
-            "precio":"6,00"
-          },
-          {
             "nombre":"Patatas",
-            "precio":"3,50"
-          },
-          {
-            "nombre":"Patatas Ali-Oli",
-            "precio":"4,30"
-          },
-          {
-            "nombre":"Tortilla Española (Ración)",
             "precio":"4,00"
           },
           {
-            "nombre":"Zorza Con Patatas",
+            "nombre":"Patatas Ali-Oli",
+            "precio":"5,00"
+          },
+          {
+            "nombre":"Patatas Bravas",
+            "precio":"5,00"
+          },
+          {
+            "nombre":"Patatas 3 Salsas",
+            "precio":"6,00"
+          },
+          {
+            "nombre":"Croquetas Caseras",
+            "precio":"10,00"
+          },
+          {
+            "nombre":"Pimientos de Padrón",
             "precio":"7,00"
+          },
+          {
+            "nombre":"Tortilla Española (Ración)",
+            "precio":"5,00"
+          },
+          {
+            "nombre":"Empanada Atún (Ración)",
+            "precio":"6,00"
+          },
+          {
+            "nombre":"Empanada Zamburiña [Pan de Millo] (Ración)",
+            "precio":"11,00"
+          },
+          {
+            "nombre":"Zorza Con Patatas",
+            "precio":"11,00"
           },
           {
             "nombre":"Jamon Asado Con Patatas",
-            "precio":"7,00"
-          },
-          {
-            "nombre":"Lomo Con Patatas",
-            "precio":"7,00"
-          },
-          {
-            "nombre":"Raxo Con Patatas",
-            "precio":"7,00"
-          },
-          {
-            "nombre":"Chipirones Con Patatas",
-            "precio":"9,00"
+            "precio":"11,00"
           }
         ]
       },
@@ -370,113 +294,14 @@
         "productos":[
           {
             "nombre":"Ensalada Mixta",
-            "precio":"4,50"
+            "precio":"5,00"
           },
           {
             "nombre":"Ensalada Especial",
-            "precio":"6,50"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "background":"https://barronsogrove.web.app/assets/image/postres.webp",
-    "title":"Postres",
-    "subCategoria":[
-      {
-        "titulo":"Helados",
-        "productos":[
-          {
-            "nombre":"Maxibon Cookie",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Maxibon Nata",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Maxibon Pops",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"KitKat",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Oreo",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Almendrado Nuii",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Almendrado Caramelo",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Extreme Chocolate",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Extreme Vainilla",
-            "precio":"2,50"
-          },
-          {
-            "nombre":"Fantasmikos",
-            "precio":"2,00"
-          },
-          {
-            "nombre":"Micolapiz",
-            "precio":"2,00"
-          },
-          {
-            "nombre":"Pirulo",
-            "precio":"2,00"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "background":"https://barronsogrove.web.app/assets/image/porEncargo.webp",
-    "title":"Por Encargo",
-    "subCategoria":[
-      {
-        "titulo":"",
-        "productos":[
-          {
-            "nombre":"Tortilla Española",
-            "precio":"10,00"
-          },
-          {
-            "nombre":"Emapanada de Atun (Grande)",
-            "precio":"16,00"
-          },
-          {
-            "nombre":"Emapanada de Atun (Mediana)",
-            "precio":"12,00"
-          },
-          {
-            "nombre":"Emapanada de Pulpo (Grande)",
-            "precio":"18,00"
-          },
-          {
-            "nombre":"Emapanada de Pulpo (Mediana)",
-            "precio":"16,00"
-          },
-          {
-            "nombre":"Emapanada de Mejillón (Grande)",
-            "precio":"16,00"
-          },
-          {
-            "nombre":"Emapanada de Mejillón (Mediana)",
-            "precio":"12,00"
+            "precio":"8,00"
           }
         ]
       }
     ]
   }
-
 ]

@@ -1,24 +1,21 @@
 .call{
   overflow: none;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
-p{
-  color: black;
-  font-weight:bold;
-}
 .call:hover{
   color: white;
   font-weight:bold;
 }
 
 footer{
-  background-color: orange;
+  background-color: rgb(31,31,34);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px;
+  color: white;
 }
 
 .foot{
@@ -41,9 +38,13 @@ footer{
   margin-right: 10px;
 }
 
+.icon img {
+  filter: invert(1);
+}
+
 .link {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .Copyright{

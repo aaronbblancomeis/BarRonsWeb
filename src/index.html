@@ -12,7 +12,7 @@
 
   <meta property="og:url" content="https://barronsogrove.web.app">
   <meta property="og:locale" content="es_ES">
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="website">
   <meta property="og:title" content="Bar Rons">
   <meta property="og:description" content="Bar Rons | Bocatería, Hamburguesría y Tapería  en O Grove">
   <meta property="og:image" content="https://barronsogrove.web.app/assets/image/logo.png">
@@ -32,12 +32,49 @@
   <link rel="shortcut icon" href="assets/icons/icono.png" type="image/x-icon">
   <link rel="icon" href="assets/icons/icono.png" type="image/x-icon">
 
-  <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Bar Rons",
+      "image": "https://barronsogrove.web.app/assets/image/logo.webp",
+      "@id": "https://barronsogrove.web.app/",
+      "url": "https://barronsogrove.web.app/",
+      "telephone": "986730785",
+      "priceRange": "$$-$$$",
+      "review":{
+        "@type":"Review",
+        "reviewRating": {
+          "@type":"Rating",
+          "ratingValue":"4",
+          "bestRating":"5"
+        },
+        "author": {
+          "@type":"Person",
+          "Aaron Blanco Meis"
+        }
+      },
+      "menu": "https://barronsogrove.web.app/#carta",
+      "servesCuisine": "true",
+      "acceptsReservations": "false",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rons 40",
+        "addressLocality": "O Grove",
+        "postalCode": "36980",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.4987247,
+        "longitude": -8.8733898
+      } ,
+      "sameAs": "https://barronsogrove.web.app/"
+    }
+  </script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
-
   <script src="/~partytown/debug/partytown.js"></script>
   <script type="text/partytown">
     window.dataLayer = window.dataLayer || [];
@@ -48,8 +85,7 @@
   </script>
 </head>
 
-<body style="background-color: black" class="mat-typography">
+<body style="background-color: rgb(251, 191, 77)" class="mat-typography">
   <app-root></app-root>
 </body>
 </html>
-

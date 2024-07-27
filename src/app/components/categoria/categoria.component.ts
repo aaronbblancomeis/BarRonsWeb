@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import carta from 'src/assets/carta/carta.json';
 
 @Component({
   selector: 'app-categorias',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoriaComponent implements OnInit {
 
+  carta:any = carta;
   constructor() { }
 
   ngOnInit(): void {

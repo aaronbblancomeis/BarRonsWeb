@@ -5,29 +5,8 @@
     </div>
   </div>
   <div class="options">
-    <a class="card nav-item nav-link actrive" href="#Desayuno">
-      Desayuno
-    </a>
-    <a class="card nav-item nav-link actrive" href="#Bebidas">
-      Bebidas
-    </a>
-    <a class="card nav-item nav-link actrive" href="#Bocadillos">
-      Bocadillos
-    </a>
-    <a class="card nav-item nav-link actrive" href="#Hamburguesas">
-      Hamburguesas
-    </a>
-    <a class="card nav-item nav-link actrive" href="#Sandwiches">
-      Sandwiches
-    </a>
-    <a class="card nav-item nav-link actrive" href="#Tapas">
-      Tapas
-    </a>
-    <a class="card nav-item nav-link actrive" href="#Postres">
-      Postres
-    </a>
-    <a class="card nav-item nav-link actrive" href="#Por Encargo">
-      Por Encargo
-    </a>
+      <a class="card nav-item nav-link active" *ngFor="let title of carta;" [href]="'#' + title.title">
+        {{title.title}}
+      </a>
   </div>
 </div>
