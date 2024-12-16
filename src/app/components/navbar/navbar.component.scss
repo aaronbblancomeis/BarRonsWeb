@@ -1,7 +1,7 @@
 nav {
   position : relative;
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 120px;
   margin-top: 60px;
   background: rgb(31,31,34);
@@ -98,7 +98,7 @@ mat-icon {
     left: -30px;
     background: rgb(31,31,34);
     width: 100%;
-    height: 100%;
+    height: 110%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
