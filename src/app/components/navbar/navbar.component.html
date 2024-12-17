@@ -7,9 +7,10 @@
   <div class="nav-menu" #nav_menu>
     <ul class="menu" #menu>
       <li><a href="#" (click)="navbar()" class="nav-item">Home</a></li>
-      <li><a href="#carta" (click)="navbar()" class="nav-item">Menu</a></li>
-      <li><a href="#horario" (click)="navbar()" class="nav-item">Horario</a></li>
-      <li><a href="#contacto" (click)="navbar()" class="nav-item">Contacto</a></li>
+      <li><a href="/home#carta" (click)="navbar()" class="nav-item">Menu</a></li>
+      <li><a href="/home#horario" (click)="navbar()" class="nav-item">Horario</a></li>
+      <li><a href="/home#contacto" (click)="navbar()" class="nav-item">Contacto</a></li>
+      <li><a routerLink="/myorder" routerLinkActive="active" (click)="navbar()" class="nav-item"> My Order</a></li>
     </ul>
     <div class="menu-btn" #icon (click)="navbar()"><mat-icon class="i_menu">menu</mat-icon></div>
   </div>

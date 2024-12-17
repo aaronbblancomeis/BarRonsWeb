@@ -8,6 +8,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import {MatIconModule} from '@angular/material/icon';
 import { CategoriaComponent } from './components/categoria/categoria.component';
 import { MenuCardComponent } from './components/menu/menu-card/menu-card.component';
+import { MainMyorderComponent } from './components/myorder/main-myorder/main-myorder.component';
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -18,11 +21,12 @@ import { MenuCardComponent } from './components/menu/menu-card/menu-card.compone
     MenuComponent,
     NavbarComponent,
     CategoriaComponent,
-    MenuCardComponent  ],
+    MenuCardComponent,
+    MainMyorderComponent ],
   imports: [
     BrowserModule,
-    MatIconModule
-
+    MatIconModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
